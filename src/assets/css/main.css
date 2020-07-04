@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.wrapper {
+  width: 100%;
+  background:#ddd !important;
+  height: 100vh;
+}
+a:hover {
+    text-decoration: none !important;
+}
+h1 {
+  padding-top: 150px;
+  color: #2ecbd6;
+}
+.nav-menu li:hover, .nav-menu li.active{
+  color: #fff;
+  cursor: pointer;
+}
+.btn-lg, .btn-group-lg > .btn {
+    font-size: 1.25rem;
+    border-radius: 0.3rem;
+    margin: -3px;
+}
+
+footer {
+    position: fixed;
+    height: 50px;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 10px 10px;
+    background-color: #2ecbd6;
+}
+label{
+  font-weight: bold;
+}
+
+.center {
+    background: #2ecbd6;
+    width: 35%;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 5px;
+    margin-top: 10px;
+}

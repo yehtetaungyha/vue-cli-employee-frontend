@@ -1,0 +1,73 @@
+/* login.vue */
+.login-box {
+  background: #fff;
+  width: 40%;
+  margin: 0 auto;
+  padding: 30px;
+  border-radius: 5px;
+}
+.login-title h3 {
+  font-size: 22px;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  color: #111;
+  text-align: center;
+}
+.login-box form {
+  margin-top: 25px;
+}
+.single-login-field {
+  margin-bottom: 10px;
+}
+.single-login-field input {
+  width: 100%;
+  border: 2px solid #e8ecec;
+  padding: 7px 10px;
+  border-radius: 5px;
+  color: #333;
+}
+.single-login-field {
+    margin-bottom: 10px;
+}
+.single-login-field:last-child {
+    margin-bottom: 0px;
+    text-align: center;
+}
+.single-login-field button {
+    border: medium none;
+    display: inline-block;
+    padding: 10px 30px;
+    text-transform: capitalize;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    background: #2ecbd6 none repeat scroll 0 0;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.navbar-color{
+  background: #2ecbd6 !important;
+}
+.dont_have {
+    text-align: center;
+    margin-top: 20px;
+}
+a {
+    color: #6b739c;
+}
+p {
+    color: #777;
+    margin: 0;
+}
+
+/* login end */
+@media (max-width: 320px) {
+  .login-box {
+  background: #fff;
+  width: 100%;
+  margin: 0 auto;
+  padding: 30px;
+  border-radius: 5px;
+}
+}
