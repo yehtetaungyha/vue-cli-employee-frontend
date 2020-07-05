@@ -62,7 +62,7 @@ p {
 }
 
 /* login end */
-@media (max-width: 320px) {
+@media (max-width: 480px) {
   .login-box {
   background: #fff;
   width: 100%;
@@ -70,4 +70,8 @@ p {
   padding: 30px;
   border-radius: 5px;
 }
+.center {
+    width: 92% !important;
 }
+}
+
