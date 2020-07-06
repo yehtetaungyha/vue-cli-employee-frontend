@@ -53,7 +53,7 @@ export default {
           .then(response => {
             this.data = response.data.signup;
             alert("Register succefully");
-            this.$router.push("/login");
+            this.$router.push("/employee");
           });
       } else {
         alert("please fill all forms");
